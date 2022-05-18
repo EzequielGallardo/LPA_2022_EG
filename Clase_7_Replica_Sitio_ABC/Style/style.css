@@ -1,0 +1,448 @@
+/*HEADER*/
+.main-header {
+    z-index: 99;
+    position: relative;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0/21%);
+  }
+  article, aside, footer, header, nav, section {
+    display: block;
+  }
+  body {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Arial,sans-serif;
+    color: #4a4a4a;
+  }
+  .main-header .top-bar {
+    font-size: 11px;
+    background-color:#25ace0;
+    color: #fff;
+    padding: 3px 0;
+    border-bottom: 1px solid #d6eaf3;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+  }
+
+  .main-header .container {
+    display: flex;
+  }
+  .article-content--cuerpo, .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .container, .main-container {
+    width: 100%;
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .main-header .top-bar .row {
+    justify-content: space-between;
+  }
+  .main-header .container > div {
+    display: flex;
+    align-items: center;
+  }
+  .row {
+    display: flex;
+    width: 100%;
+  }
+
+  .main-header .top-bar .item {
+    width: 33.33%;
+  }
+  .main-header [class*="col-"] {
+    padding-left: 0;
+    padding-right: 0;
+    width: 33.33%;
+  }
+  .btn-ultimas-noticias, .grupo-links-top {
+    display: flex;
+    align-items: center;
+  }
+
+  .main-header .top-bar a, .main-header .top-bar a:hover {
+    color: #fff;
+  }
+  .main-header a, .main-header a:focus {
+    text-decoration: none;
+  }
+  .main-header a {
+    transition: .2s ease-in-out;
+  }
+  .btn-ultimas-noticias {
+    justify-content: center;
+    background-color: #00408c;
+    width: fit-content;
+    padding: 4px 7px;
+    border-radius: 2px;
+    margin-right: 9px;
+  }
+  .btn-ultimas-noticias, .grupo-links-top {
+    display: flex;
+    align-items: center;
+  }
+
+  .main-header .btn-buscador {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00408c;
+    color: #fff;
+    width: 22px;
+    height: 22px;
+    border-radius: 2px;
+    border: 0;
+    cursor: pointer;
+  }
+
+  .main-header .top-bar .fecha-top {
+    text-align: center;
+  }
+  .main-header .top-bar .item {
+    width: 33.33%;
+  }
+  .main-header [class*="col-"] {
+    padding-left: 0;
+    padding-right: 0;
+    width: 33.33%;
+  }
+  .fecha-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .main-header .top-bar .item-last {
+    text-align: right;
+  }
+  .main-header .top-bar .item {
+    width: 33.33%;
+  }
+  .main-header [class*="col-"] {
+    padding-left: 0;
+    padding-right: 0;
+    width: 33.33%;
+  }
+
+  .top-bar--link-contacto svg {
+    margin-right: 3px;
+    fill: #fff;
+    width: 16px;
+    height: 16px;
+  }
+  svg:not(:root) {
+    overflow: hidden;
+  }
+
+  .main-header .container {
+    display: flex;
+  }
+  .article-content--cuerpo, .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .container, .main-container {
+    width: 100%;
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .main-header .container > div {
+    display: flex;
+    align-items: center;
+  }
+  .main-header [class*="col-"] {
+    padding-left: 0;
+    padding-right: 0;
+    width: 33.33%;
+  }
+  .bg-ico-ig, .icolinks {
+    display: flex;
+  }
+  .icolinks a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+    padding: 1rem;
+    font-size: 11px;
+  }
+  a {
+    color: #000;
+  }
+  a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+  }
+  .main-header .container > div {
+    display: flex;
+    align-items: center;
+  }
+  .main-header .col-logo {
+    justify-content: center;
+    padding: 1rem 0;
+  }
+
+  .main-header .container > div {
+    display: flex;
+    align-items: center;
+  }
+  .main-header .col-tools {
+    justify-content: flex-end;
+  }
+  .main-header [class*="col-"] {
+    padding-left: 0;
+    padding-right: 0;
+    width: 33.33%;
+  }
+
+  ul.redes-sociales {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    justify-content: flex-end;
+  }
+  ul.redes-sociales a {
+    color: #105ba3;
+    font-size: 20px;
+    display: flex;
+    font-weight: 100;
+    margin-left: 20px;
+  }
+  .main-header a {
+    transition: .2s ease-in-out;
+  }
+  ul.redes-sociales svg {
+    width: 18px;
+    height: auto;
+    fill: #105ba3;
+  }
+  elemento {
+
+    enable-background: new 0 0 96.227 96.227;
+
+}
+ul.redes-sociales svg {
+
+    width: 18px;
+    height: auto;
+    fill: var(--azul-brand);
+
+}
+svg:not(:root) {
+
+    overflow: hidden;
+
+}
+*, ::after, ::before {
+
+    box-sizing: inherit;
+
+}
+ 
+.DemoLogo{
+    width:160px; 
+    height:87px;
+}
+ 
+.sub-header {
+    background-color: #105ba3;
+  }
+
+  .sub-header .container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+
+  .article-content--cuerpo, .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .main-menu {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    justify-content: center;
+  }
+
+  .main-menu > li {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+  }
+
+  .main-menu a {
+    padding: 7px 8px;
+    line-height: 16px;
+    font-size: 13px;
+    margin: 0;
+    color: #fff;
+    border-bottom: 0;
+  }
+ 
+  .main-container {
+    padding-top: 2rem;
+  }
+  .container, .main-container {
+    width: 100%;
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .content-banner {
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+
+  .row {
+    display: flex;
+    width: 100%;
+  }
+  .col--main {
+    flex: 1 75%;
+  }
+
+  .main-article--header .antetitulo {
+    font-size: .8em;
+    color: #105ba3;
+    text-transform: none;
+    font-weight: 700;
+  }
+  .main-article--header .titulo {
+    color: #000;
+    font-size: 3em;
+    line-height: 1.1em;
+    font-weight: 800;
+    letter-spacing: -.02em;
+    word-spacing: -.03em;
+  }
+
+  .main-article--header .bajada {
+    font-size: 1.2em;
+    font-style: italic;
+  }
+  .main-article--header .bajada {
+    line-height: 1.3em;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+  .margen-top1 {
+    margin-bottom: 60px;
+    margin-top: 20px;
+  }
+  .main-article--body {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-photo {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    background-color: rgba(0,0,0,.35);
+  }
+  .i-amphtml-layout-size-defined .i-amphtml-fill-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+
+  .main-photo .epigrafe {
+    font-size: .7em;
+    line-height: 1.1em;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: .5rem;
+    background-color: rgba(0,0,0,.308);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .article-content--autor {
+    background-color: #105ba3;
+    color: #fff;
+  }
+
+  .el-autor {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .nombre-autor {
+    font-size: .7em;
+  }
+  .nombre-autor .post-author-name {
+    text-decoration: underline;
+    font-weight: 600;
+  }
+  .article-content--fecha {
+    font-size: .7em;
+    margin-left: auto;
+  }
+  .article-content--fecha .fecha-time, .article-content--fecha .seccion {
+    color: #fff;
+  }
+  .article-content--fecha .fecha-time, .article-content--fecha .seccion {
+    font-weight: 600;
+  }
+  .article-content--fecha .fecha-time, .article-content--fecha .seccion {
+    color: #fff;
+  }
+  .main-article--body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-article--body .content-banner {
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
+
+  .main-article--body .content-banner {
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
+  .content-banner {
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+
+  .nrel {
+    width: 100%;
+  }
+  article, aside, footer, header, nav, section {
+    display: block;
+  }
+
+  .mod__titulo {
+    color: #000;
+    position: relative;
+    text-align: left;
+    padding-top: 20px;
+    font-weight: 800;
+  }
+
+  p {
+    margin: 0;
+      margin-bottom: 0px;
+  }
+
+  main {display: flex;}
+  aside{float: right;}

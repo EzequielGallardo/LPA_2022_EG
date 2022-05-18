@@ -1,0 +1,1 @@
+https://abcnoticias.mx/nacional/2022/4/21/los-nfts-burbuja-revolucion-161070.html
